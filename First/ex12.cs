@@ -8,8 +8,8 @@ namespace First
 {
     internal class Employee
     {
-        int EmpID;
-        string Name;
+        int EmpID;  // private
+        string Name;  // protected
         string City;
         public Employee()
         {
@@ -30,20 +30,19 @@ namespace First
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"City: {City}");
         }
-    }
-    class Program
-    {
-        static void Main(string[] args)
+        class Program
         {
-            Employee obj1 = new Employee();
-            Employee obj2 = new Employee(101, "Viraj", "Jasdan");
+            static void Main(string[] args)
+            {
+                Employee obj1 = new Employee();
+                Employee obj2 = new Employee(101, "Viraj", "Jasdan");
 
-            obj1.Display();
-            Console.WriteLine();
-            obj2.Display();
+                obj1.Display();
+                Console.WriteLine();
+                obj2.Display();
 
-            Console.ReadKey();
+                Console.ReadKey();
+            }
         }
-        
     }
 }

@@ -47,6 +47,9 @@
     <Compile Include="ex10.cs" />
     <Compile Include="ex11.cs" />
     <Compile Include="ex12.cs" />
+    <Compile Include="ex13.cs" />
+    <Compile Include="ex14.cs" />
+    <Compile Include="ex15.cs" />
     <Compile Include="ex2.cs" />
     <Compile Include="ex3.cs" />
     <Compile Include="ex4.cs" />
