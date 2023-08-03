@@ -50,6 +50,7 @@
     <Compile Include="ex13.cs" />
     <Compile Include="ex14.cs" />
     <Compile Include="ex15.cs" />
+    <Compile Include="ex16.cs" />
     <Compile Include="ex2.cs" />
     <Compile Include="ex3.cs" />
     <Compile Include="ex4.cs" />
@@ -67,6 +68,11 @@
     <Compile Include="patten7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="t2_1.cs" />
+    <Compile Include="t2_2.cs" />
+    <Compile Include="t2_3_1.cs" />
+    <Compile Include="t2_3_2.cs" />
+    <Compile Include="t2_4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

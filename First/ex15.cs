@@ -19,7 +19,7 @@ namespace First
             }
             class Square : Shape
             {
-                int side;
+                int side;   
                 public Square(int sideLength)
                 {
                     side = sideLength;
